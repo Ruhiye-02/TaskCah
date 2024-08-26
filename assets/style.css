@@ -1,0 +1,53 @@
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+  background-color: rgb(117, 157, 230);
+  padding: 20px;
+}
+.cardadd input {
+  background-color: rgb(245, 240, 240);
+  border-radius: 3px;
+  padding: 10px;
+  border: 0cap;
+}
+.cardadd button {
+  background-color: rgb(42, 103, 216);
+  border-radius: 3px;
+  padding: 10px;
+  border: 0cap;
+  cursor: pointer;
+  color: white;
+}
+.products li {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.products li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.products li button:hover {
+  background-color: darkred;
+}
+p {
+  color: rgb(236, 239, 236);
+  padding-bottom: 5px;
+}
+#productList{
+    padding: 0%;
+    overflow-y: scroll;
+    height: 420px;
+}
